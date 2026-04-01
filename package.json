@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean-install": "rm -rf node_modules package-lock.json yarn.lock && npm install"
   },
   "dependencies": {
     "lucide-react": "^0.462.0",
